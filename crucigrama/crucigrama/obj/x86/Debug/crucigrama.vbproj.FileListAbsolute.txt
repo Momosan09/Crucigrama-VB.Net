@@ -1,9 +1,9 @@
 D:\51\VISUAL BASIC\crucigrama\crucigrama\bin\Debug\crucigrama.exe
 D:\51\VISUAL BASIC\crucigrama\crucigrama\bin\Debug\crucigrama.pdb
 D:\51\VISUAL BASIC\crucigrama\crucigrama\bin\Debug\crucigrama.xml
-D:\51\VISUAL BASIC\crucigrama\crucigrama\obj\x86\Debug\crucigrama.Form1.resources
 D:\51\VISUAL BASIC\crucigrama\crucigrama\obj\x86\Debug\crucigrama.Resources.resources
 D:\51\VISUAL BASIC\crucigrama\crucigrama\obj\x86\Debug\crucigrama.vbproj.GenerateResource.Cache
 D:\51\VISUAL BASIC\crucigrama\crucigrama\obj\x86\Debug\crucigrama.exe
 D:\51\VISUAL BASIC\crucigrama\crucigrama\obj\x86\Debug\crucigrama.xml
 D:\51\VISUAL BASIC\crucigrama\crucigrama\obj\x86\Debug\crucigrama.pdb
+D:\51\VISUAL BASIC\crucigrama\crucigrama\obj\x86\Debug\crucigrama.Form1.resources

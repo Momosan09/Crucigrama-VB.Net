@@ -65,13 +65,14 @@ Partial Class Form1
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         Me.ErrorVertcal2 = New System.Windows.Forms.Label()
+        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(258, 59)
+        Me.Label1.Location = New System.Drawing.Point(31, 35)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(64, 13)
         Me.Label1.TabIndex = 0
@@ -80,25 +81,25 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(331, 58)
+        Me.Label2.Location = New System.Drawing.Point(93, 35)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(88, 13)
+        Me.Label2.Size = New System.Drawing.Size(165, 13)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "DEVELOPMENT"
+        Me.Label2.Text = "La accion de hacer una aplicaion"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(339, 71)
+        Me.Label3.Location = New System.Drawing.Point(91, 48)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(36, 13)
+        Me.Label3.Size = New System.Drawing.Size(353, 13)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "valor2"
+        Me.Label3.Text = "Lenguaje de programacion orientado a objetos y una version de minecraft"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(258, 72)
+        Me.Label4.Location = New System.Drawing.Point(31, 48)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(64, 13)
         Me.Label4.TabIndex = 2
@@ -107,16 +108,16 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(339, 132)
+        Me.Label5.Location = New System.Drawing.Point(80, 108)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(36, 13)
+        Me.Label5.Size = New System.Drawing.Size(163, 13)
         Me.Label5.TabIndex = 7
-        Me.Label5.Text = "valor2"
+        Me.Label5.Text = "** Precious // ** presioso (LOTR)"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(258, 132)
+        Me.Label6.Location = New System.Drawing.Point(31, 108)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(54, 13)
         Me.Label6.TabIndex = 6
@@ -125,16 +126,16 @@ Partial Class Form1
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(339, 119)
+        Me.Label7.Location = New System.Drawing.Point(80, 95)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(36, 13)
+        Me.Label7.Size = New System.Drawing.Size(178, 13)
         Me.Label7.TabIndex = 5
-        Me.Label7.Text = "valor1"
+        Me.Label7.Text = "Precioso para uno, amado o querido"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(258, 119)
+        Me.Label8.Location = New System.Drawing.Point(31, 95)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(54, 13)
         Me.Label8.TabIndex = 4
@@ -391,7 +392,7 @@ Partial Class Form1
         '
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Enabled = False
-        Me.CheckBox1.Location = New System.Drawing.Point(237, 58)
+        Me.CheckBox1.Location = New System.Drawing.Point(10, 34)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox1.TabIndex = 10
@@ -401,7 +402,7 @@ Partial Class Form1
         '
         Me.ErrorHorizontal1.AutoSize = True
         Me.ErrorHorizontal1.ForeColor = System.Drawing.Color.Red
-        Me.ErrorHorizontal1.Location = New System.Drawing.Point(279, 43)
+        Me.ErrorHorizontal1.Location = New System.Drawing.Point(256, 34)
         Me.ErrorHorizontal1.Name = "ErrorHorizontal1"
         Me.ErrorHorizontal1.Size = New System.Drawing.Size(0, 13)
         Me.ErrorHorizontal1.TabIndex = 11
@@ -410,7 +411,7 @@ Partial Class Form1
         '
         Me.CheckBox2.AutoSize = True
         Me.CheckBox2.Enabled = False
-        Me.CheckBox2.Location = New System.Drawing.Point(237, 71)
+        Me.CheckBox2.Location = New System.Drawing.Point(10, 47)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox2.TabIndex = 12
@@ -420,7 +421,7 @@ Partial Class Form1
         '
         Me.ErrorHorizontal2.AutoSize = True
         Me.ErrorHorizontal2.ForeColor = System.Drawing.Color.Red
-        Me.ErrorHorizontal2.Location = New System.Drawing.Point(266, 89)
+        Me.ErrorHorizontal2.Location = New System.Drawing.Point(100, 64)
         Me.ErrorHorizontal2.Name = "ErrorHorizontal2"
         Me.ErrorHorizontal2.Size = New System.Drawing.Size(0, 13)
         Me.ErrorHorizontal2.TabIndex = 13
@@ -429,7 +430,7 @@ Partial Class Form1
         '
         Me.ErrorVertcal1.AutoSize = True
         Me.ErrorVertcal1.ForeColor = System.Drawing.Color.Red
-        Me.ErrorVertcal1.Location = New System.Drawing.Point(265, 105)
+        Me.ErrorVertcal1.Location = New System.Drawing.Point(264, 94)
         Me.ErrorVertcal1.Name = "ErrorVertcal1"
         Me.ErrorVertcal1.Size = New System.Drawing.Size(0, 13)
         Me.ErrorVertcal1.TabIndex = 14
@@ -438,7 +439,7 @@ Partial Class Form1
         '
         Me.CheckBox3.AutoSize = True
         Me.CheckBox3.Enabled = False
-        Me.CheckBox3.Location = New System.Drawing.Point(237, 118)
+        Me.CheckBox3.Location = New System.Drawing.Point(10, 94)
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox3.TabIndex = 15
@@ -448,7 +449,7 @@ Partial Class Form1
         '
         Me.CheckBox4.AutoSize = True
         Me.CheckBox4.Enabled = False
-        Me.CheckBox4.Location = New System.Drawing.Point(237, 131)
+        Me.CheckBox4.Location = New System.Drawing.Point(10, 107)
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox4.TabIndex = 16
@@ -458,16 +459,24 @@ Partial Class Form1
         '
         Me.ErrorVertcal2.AutoSize = True
         Me.ErrorVertcal2.ForeColor = System.Drawing.Color.Red
-        Me.ErrorVertcal2.Location = New System.Drawing.Point(259, 160)
+        Me.ErrorVertcal2.Location = New System.Drawing.Point(249, 108)
         Me.ErrorVertcal2.Name = "ErrorVertcal2"
         Me.ErrorVertcal2.Size = New System.Drawing.Size(0, 13)
         Me.ErrorVertcal2.TabIndex = 17
+        '
+        'ProgressBar1
+        '
+        Me.ProgressBar1.Location = New System.Drawing.Point(1, 5)
+        Me.ProgressBar1.Name = "ProgressBar1"
+        Me.ProgressBar1.Size = New System.Drawing.Size(443, 23)
+        Me.ProgressBar1.TabIndex = 18
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(438, 471)
+        Me.ClientSize = New System.Drawing.Size(442, 471)
+        Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.ErrorVertcal2)
         Me.Controls.Add(Me.CheckBox4)
         Me.Controls.Add(Me.CheckBox3)
@@ -487,7 +496,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Crucigrama"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
@@ -537,5 +546,6 @@ Partial Class Form1
     Friend WithEvents CheckBox3 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox4 As System.Windows.Forms.CheckBox
     Friend WithEvents ErrorVertcal2 As System.Windows.Forms.Label
+    Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
 
 End Class
